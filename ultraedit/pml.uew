@@ -1,0 +1,177 @@
+/L15"PML11" Line Comment = -- Nocase Line Comment Alt = $* Block Comment On = $( Block Comment Off = $) Escape Char = \ String Chars = '| File Extensions = pmlfrm pmlmac pmlfnc pmlobj pmldat MAC
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~!@%^&*()-+=|/{}[]:;"'<> ,	.?
+/Function String = "%define [a-zA-Z_]*("
+/Indent Strings = "then" "ANY" "NONE" 
+/Unindent Strings = "endhandle" "endif" "else" "enddo"
+/Open Fold Strings = "define object" "define method" "define function" "setup form" "frame"
+/Close Fold Strings = "endobject" "endmethod" "endfunction" "exit"
+/C1"Keywords" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+break by
+define do
+else elsehandle elseif enddo endfunction endhandle endif endmethod endobject error exit
+form from function
+golabel
+handle
+if indices is
+label
+member method
+object onerror
+return
+setup skip
+then to
+values var
+/C2"C# Data Types" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+int 
+FALSE
+TRUE
+NONE
+object
+ARRAY ANY
+STRING
+BOOLEAN
+/C3"C# Preprocessor Directives" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+bar
+call
+do
+enddo endobject exit
+menu
+return
+.add
+var
+/C4"Operators" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
++
+-
+*
+?
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+:
+(
+) 
+is 
+sizeof 
+typeof
+unchecked
+/C5"PDMS COMMANDS" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+$
+"CURRENT SESSION"
+this
+/C6 "OTHERS" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+if
+centre
+down
+else elseif endif
+halign hdist
+left
+path
+right
+up
+valign vdist
+/C7 "fred" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+button
+frame
+list
+option
+para
+radio rgroup rtoggle
+text tog toggle
+/L16"PML (NEW!)" Line Comment = -- Nocase Line Comment Alt = $* Block Comment On = $( Block Comment Off = $) Escape Char = \ String Chars = '| File Extensions = *
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~@%^&*()-+=|/{}[]:;"'<> ,	.?
+/Function String = "%define [a-zA-Z_]*("
+/Indent Strings = "then" "ANY" "NONE" 
+/Unindent Strings = "endhandle" "endif" "else" "elseif" "enddo"
+/Open Fold Strings = "define object" "define method" "define function" "setup form" "frame"
+/Close Fold Strings = "endobject" "endmethod" "endfunction" "exit"
+/C1"Keywords" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+break by
+define do
+else elsehandle elseif enddo endfunction endhandle endif endmethod endobject error exit
+form from function
+golabel
+handle
+if indices is
+label
+member method
+object onerror
+return
+setup skip
+then to
+values var
+/C2"Forms" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+bar button
+CANCELCALL
+frame
+iconti icontitle init initcall
+list
+menu
+okcall option
+para paragraph
+quitcall
+radio rgroup rtoggle
+selector slider
+text textfield textpane title tog toggle
+view
+/C3"Gadget properties" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+anchor at
+bottom
+call callback centre
+dock down
+fill
+halign hdist height
+left
+path pixmap
+right
+states
+tagwidth tooltip top
+up
+valign vdist
+width
+/C4"Data Types" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+any array
+block boolean
+dbref
+real
+string
+true
+/C5"PDMS Commands" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+hide
+index
+kill
+loadform
+new
+pml pmlscan
+q
+reload rehash
+show
+$M $P $R $T
+/C6"Operators" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
++
+-
+*
+// /
+&
+and
+eq
+ge geq gt
+le leq lt
+neq not
+or
+/C7"Global variables" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+** !!
+/C8"Local variables" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+** !
