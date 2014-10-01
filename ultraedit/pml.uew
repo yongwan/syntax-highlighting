@@ -7,8 +7,9 @@
 /Function String = "%define [a-zA-Z_]*("
 /Indent Strings = "then" "ANY" "NONE" 
 /Unindent Strings = "endhandle" "endif" "else" "elseif" "enddo"
-/Open Fold Strings = "define object" "define method" "define function" "setup form" "frame"
-/Close Fold Strings = "endobject" "endmethod" "endfunction" "exit"
+/Open Fold Strings = "define object" "define method" "define function" "setup form" "frame" "if" "handle" "do"
+/Close Fold Strings = "endobject" "endmethod" "endfunction" "exit" "endif" "endhandle" "enddo"
+/Ignore Fold Strings = "skip if"
 /C1"Keywords" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 break by
 define do
